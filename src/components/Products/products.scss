@@ -1,0 +1,10 @@
+.product__width{
+    background: var(--gray-100, #F7FAFC);
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding-top: 30px;
+}

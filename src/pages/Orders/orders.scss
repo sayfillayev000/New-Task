@@ -1,0 +1,106 @@
+.order__title {
+  margin: 25px 0;
+  padding-top: 25px;
+}
+.orders__container {
+  padding: 23px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(#000, 0.2);
+  .order__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .order__left__img {
+      width: 93.705px;
+      margin-right: 15px;
+      border: 1px solid rgba(#000, 0.2);
+      border-radius: 5px;
+    }
+    .order__center {
+      position: relative;
+      right: 120px;
+      h3 {
+        color: var(--dark, #1c1c1c);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+      }
+      p {
+        color: var(--gray-500, #8b96a5);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        width: 574.275px;
+        margin-bottom: 10px;
+      }
+      .remove__save {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        button {
+          text-align: center;
+          font-family: Inter;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          padding: 5px 10px;
+          border: 1px solid rgba(#000, 0.2);
+          border-radius: 5px;
+          background-color: #fff;
+        }
+        button:first-child {
+          color: #fa3434;
+        }
+        button:last-child {
+          color: #0d6efd;
+        }
+      }
+    }
+    .order__right {
+      h4 {
+        color: var(--base-color-dark, #1c1c1c);
+        text-align: right;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 12px;
+      }
+      select {
+        width: 164.652px;
+        box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
+        border: 1px solid rgba(#000, 0.2);
+        border-radius: 7px;
+        padding: 10px;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.back__shop {
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--primary, #0d6efd);
+  background: var(
+    --primary-gradient,
+    linear-gradient(180deg, #127fff 0%, #0067ff 100%)
+  );
+  padding: 5px 20px;
+  margin-top: 20px;
+}

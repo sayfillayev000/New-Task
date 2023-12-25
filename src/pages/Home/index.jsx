@@ -1,16 +1,18 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import { Footer, Header } from '../../components'
-import './home.scss'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import { Footer, Header } from "../../components";
+import "./home.scss";
 
 const index = () => {
   return (
-    <div className='home container'>
-    <Header/>
-    <Outlet/>
-    <Footer/>
-    </div>
-  )
-}
+    <>
+      <Header />
+      <div className="home">
+        <Outlet />
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-export default index
+export default index;

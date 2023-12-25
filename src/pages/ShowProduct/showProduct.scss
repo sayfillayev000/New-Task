@@ -1,0 +1,152 @@
+.show__product {
+  background: #f8f9fa;
+  width: 100%;
+  .show__card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .imgs__card {
+      width: 380px;
+    }
+    .show__info__card {
+      width: 100%;
+      padding: 22px;
+      .stock {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 37px;
+        .Save__later {
+          span {
+            color: var(--base-color-green, #00b517);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            display: flex;
+            align-items: center;
+          }
+        }
+        .order__for {
+          display: flex;
+          justify-content: space-between;
+          // align-items: center;
+          gap: 8px;
+          cursor: pointer;
+        }
+      }
+      .message__shopping {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .star__shopping {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .reviews {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .sold {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      .narxlar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 175px 14px 27px;
+        background-color: #fff0df;
+        margin-top: 12px;
+        div {
+          h4 {
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 2px;
+          }
+          span {
+            color: var(--base-color-gray-800, #606060);
+            font-family: Inter;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+        .pcs50100 {
+          h4 {
+            color: #fa3434;
+          }
+        }
+        .pcs100700 {
+          h4 {
+            color: #1c1c1c;
+          }
+        }
+        .pcs700 {
+          h4 {
+            color: #1c1c1c;
+          }
+        }
+      }
+      .price,
+      .type,
+      .material,
+      .design,
+      .customization,
+      .protection,
+      .warranty {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+        h3:first-child {
+          width: 240px;
+          color: var(--gray-500, #8b96a5);
+        }
+        h3:last-child {
+          color: var(--gray-600, #505050);
+        }
+        h3 {
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .price {
+        border-bottom: 1px solid #e0e0e0;
+        margin-top: 21px;
+        padding-bottom: 16px;
+      }
+      .type {
+        margin-top: 8px;
+      }
+      .material {
+      }
+      .design {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 8px;
+        padding-bottom: 16px;
+      }
+      .customization {
+      }
+      .protection {
+      }
+      .warranty {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 8px;
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
