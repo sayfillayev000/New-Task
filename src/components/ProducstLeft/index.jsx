@@ -11,9 +11,12 @@ const index = () => {
     <div className="productLeft">
       <div className="category__box">
         <div className="category__Drop" onClick={() => setCategory(!category)}>
-          <h2>Category</h2> <DropDownTop className={category &&'drop'} />
-                  </div>
-        <div className="category__list" style={category ? { display: "none" }:{display:"block"}}>
+          <h2>Category</h2> <DropDownTop className={category ? "drop" : null} />
+        </div>
+        <div
+          className="category__list"
+          style={category ? { display: "none" } : { display: "block" }}
+        >
           <h3>Mobile accessory</h3>
           <h3>Electronics</h3>
           <h3>Smartphones </h3>
@@ -23,9 +26,12 @@ const index = () => {
       </div>
       <div className="brands__box">
         <div className="brands__Drop" onClick={() => setBrands(!brands)}>
-          <h2>Brands</h2> <DropDownTop className={brands &&'drop'}/>
+          <h2>Brands</h2> <DropDownTop className={brands ? "drop" : null} />
         </div>
-        <div className="brands__list"  style={brands ? { display: "none" }:{display:"block"}}>
+        <div
+          className="brands__list"
+          style={brands ? { display: "none" } : { display: "block" }}
+        >
           <label htmlFor="Samsung">
             <input type="checkbox" name="Samsung" id="Samsung" />
             <h3>Samsung</h3>
@@ -50,10 +56,13 @@ const index = () => {
         </div>
       </div>
       <div className="features__box">
-        <div className="features__Drop"  onClick={() => setFeatures(!features)}>
-          <h2>Features</h2> <DropDownTop className={features &&'drop'} />
+        <div className="features__Drop" onClick={() => setFeatures(!features)}>
+          <h2>Features</h2> <DropDownTop className={features ? "drop" : null} />
         </div>
-        <div className="features__list"  style={features ? { display: "none" }:{display:"block"}}>
+        <div
+          className="features__list"
+          style={features ? { display: "none" } : { display: "block" }}
+        >
           <label htmlFor="Metallic">
             <input type="checkbox" name="Metallic" id="Metallic" />
             <h3>Metallic</h3>

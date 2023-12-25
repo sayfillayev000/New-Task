@@ -17,7 +17,7 @@
     align-items: center;
     border-top: 1px solid rgba(#000000, 0.5);
     .card__left {
-        width: 215px;
+      width: 215px;
       h4 {
         display: flex;
         gap: 8px;
@@ -59,8 +59,9 @@
         line-height: 24px;
         letter-spacing: -0.2px;
       }
-      .card__rigth {
-      }
+    }
+    .card__rigth {
+      cursor: pointer;
     }
   }
 }
